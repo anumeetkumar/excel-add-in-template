@@ -39,6 +39,7 @@ const App: React.FC<AppProps> = (props: AppProps) => {
       <HeroList message="Discover what this add-in can do for you today!" items={listItems} /> */}
       <TextInsertion insertText={insertText} />
       <div style={{ padding: "20px" }}>
+        
         <Button appearance="primary" disabled={false} size="large" onClick={sumSelectedRange}>
           Sum
         </Button>
